@@ -10,7 +10,7 @@ terraform {
     bucket = "reddym-remote-state"
     key = "robo-manual"
     region = "us-east-1"
-    dynamodb_table = "dynamodb-remote-state-lock"
+    dynamodb_table = "dynomodb-remote-state-lock"
   }
 }
 
