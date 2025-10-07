@@ -7,7 +7,7 @@ terraform {
 
   }
   backend "s3" {
-    bucket = "remote-state-lock"
+    bucket = "reddym-remote-state"
     key = "robo-manual"
     region = "us-east-1"
     dynamodb_table = "dynamodb-remote-state-lock"
