@@ -8,7 +8,7 @@ resource "aws_instance" "roboshop" {
   tags = merge(
     var.common_tags,
     {
-        Name = "${var.project}"-"${var.environment}"
+        Name = "${var.project}-${var.environment}"
     }
   )
 }
